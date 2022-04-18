@@ -14,3 +14,10 @@
 * Если инициализировать константу, то ей нужно сразу задать значение `const name string = 'Andrei'`
 
 * Проверить тип перменной можно через библиотеку `reflect`. `reflect.TypeOf(<variable>)`
+
+
+### Функции
+
+func <func_name>(var var_type) (return_type) {
+    body
+}
