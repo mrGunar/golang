@@ -75,3 +75,9 @@ Ampersand (&) предоставляет адрес переменной в па
 # Goroutins
 
 Keyword `go`
+
+Goroutins are running in a chaotic order.
+
+Create channel c := make(chan int)
+c <- 99 (Pass 99 into the channel)
+r := <-c  
